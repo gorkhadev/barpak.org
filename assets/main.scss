@@ -2,4 +2,5 @@
 ---
 
 $baseurl: "{{ site.baseurl }}";
+$image_url_path: "{{ site.image_url_path }}";
 @import "custom";
