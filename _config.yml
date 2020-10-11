@@ -8,7 +8,7 @@ twitter_username: coolbrg
 github_username:  coolbrg
 thumbnail_path: thumbnail.jpg
 
-google_analytics: # your google analytics id
+google_analytics: UA-164576022-8
 
 # Build settings
 markdown: kramdown
