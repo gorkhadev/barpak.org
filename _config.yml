@@ -4,8 +4,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   A beautiful village in the northern Gorkha, Nepal
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://barpak.org"
-# image_url_path: /assets/img
-image_url_path: https://coolbrg.sirv.com/barpak/img
+# image_base_url: /assets/img
+image_base_url: https://coolbrg.sirv.com/barpak/img
 
 
 twitter_username: coolbrg

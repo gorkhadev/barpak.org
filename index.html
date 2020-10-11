@@ -46,7 +46,7 @@ thumbnail_path: thumbnail.jpg
     <!-- Featured Project Row-->
     <div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-lg-7">
-        <img class="img-fluid mb-3 mb-lg-0" src="{{ site.image_url_path }}/featured.jpg" alt="" />
+        <img class="img-fluid mb-3 mb-lg-0" src="{{ site.image_base_url }}/featured.jpg" alt="" />
       </div>
       <div class="col-xl-4 col-lg-5">
         <div class="featured-text text-center text-lg-left">
@@ -64,7 +64,7 @@ thumbnail_path: thumbnail.jpg
     <!-- Project One Row-->
     <div class="row justify-content-center no-gutters">
       <div class="col-lg-6">
-        <img class="img-fluid" src="{{ site.image_url_path }}/people.jpg" alt="Villagers" />
+        <img class="img-fluid" src="{{ site.image_base_url }}/people.jpg" alt="Villagers" />
         <div class="overlay">
           <div class="caption">
             Friendly People
@@ -72,7 +72,7 @@ thumbnail_path: thumbnail.jpg
         </div>
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid" src="{{ site.image_url_path }}/houses.jpg" alt="Structured Houses" />
+        <img class="img-fluid" src="{{ site.image_base_url }}/houses.jpg" alt="Structured Houses" />
         <div class="overlay">
           <div class="caption">
             Structured Houses
@@ -83,7 +83,7 @@ thumbnail_path: thumbnail.jpg
     <!-- Project Two Row-->
     <div class="row justify-content-center no-gutters">
       <div class="col-lg-6">
-        <img class="img-fluid" src="{{ site.image_url_path }}/waterfall.jpg" alt="Natural Beauties" />
+        <img class="img-fluid" src="{{ site.image_base_url }}/waterfall.jpg" alt="Natural Beauties" />
         <div class="overlay">
           <div class="caption">
             Natural Beauties
@@ -91,7 +91,7 @@ thumbnail_path: thumbnail.jpg
         </div>
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid" src="{{ site.image_url_path }}/surrounding.jpg" alt="Beautiful Surrounding" />
+        <img class="img-fluid" src="{{ site.image_base_url }}/surrounding.jpg" alt="Beautiful Surrounding" />
         <div class="overlay">
           <div class="caption">
             Beautiful Surrounding
@@ -120,7 +120,7 @@ thumbnail_path: thumbnail.jpg
         </p>
       </div>
     </div>
-    <img class="img-fluid" src="{{ site.image_url_path }}/about-bg.png" alt="" />
+    <img class="img-fluid" src="{{ site.image_base_url }}/about-bg.png" alt="" />
   </div>
 </section>
 
@@ -132,8 +132,8 @@ thumbnail_path: thumbnail.jpg
     <div class="row justify-content-center no-gutters">
       {% for i in (1..9) %}
         <div class="col-md-4 col-6 p-0">
-          <a class="gallery" href="{{ site.image_url_path }}/gallery/{{ i }}.jpg">
-            <img class="img-fluid" src="{{ site.image_url_path }}/gallery/{{ i }}.jpg?w=400" alt="" />
+          <a class="gallery" href="{{ site.image_base_url }}/gallery/{{ i }}.jpg">
+            <img class="img-fluid" src="{{ site.image_base_url }}/gallery/{{ i }}.jpg?w=400" alt="" />
           </a>
         </div>
       {% endfor %}
@@ -153,7 +153,7 @@ thumbnail_path: thumbnail.jpg
       </div>
     </div>
     <div class="row">
-      <img class="img-fluid" src="{{ site.image_url_path }}/school.jpg" alt="" />
+      <img class="img-fluid" src="{{ site.image_base_url }}/school.jpg" alt="" />
     </div>
   </div>
 </section>
