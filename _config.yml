@@ -1,11 +1,12 @@
-title: Jekyll Play
+title: Barpak Gaon
 email: budhram.gurung01@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The minimal Jekyll base template to quickly start with.
+  A beautiful village in the northern Gorkha, Nepal
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://barpak.org"
 twitter_username: coolbrg
 github_username:  coolbrg
+thumbnail_path: thumbnail.jpg
 
 google_analytics: # your google analytics id
 

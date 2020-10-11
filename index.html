@@ -1,33 +1,208 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
-title: Your Awesome Title
-page_name: home
+title: Gaon(Village)
+permalink: /
+thumbnail_path: thumbnail.jpg
 ---
 
-<div class="home-page page-margin">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-
-    {%- if site.posts.size > 0 -%}
-      <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-      <ul class="post-list list-unstyled p-0">
-        {%- for post in site.posts -%}
-        <li class="mb-4">
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta mb-3">{{ post.date | date: date_format }}</span>
-          <h3 class="mt-2">
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
+    <a class="navbar-brand js-scroll-trigger" href="/">BARPAK</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      Menu <i class="icofont-listing-box"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#highlights">Highlights</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#school">School</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#credits">Credits</a></li>
       </ul>
-    {%- endif -%}
+    </div>
   </div>
-</div>
+</nav>
+
+<!-- Masthead-->
+<header class="masthead">
+  <div class="container d-flex h-100 align-items-center">
+    <div class="mx-auto text-center">
+      <h4 class="mx-auto my-0 text-uppercase">Welcome to</h4>
+      <h1 class="mx-auto my-0 text-uppercase">BARPAK GAON</h1>
+      <h2 class="text-white-75 mx-auto mt-2 mb-5">A beautiful village in the northern Gorkha, Nepal</h2>
+      <a href="#youtubeVideoModal" data-src="https://www.youtube.com/embed/yQrK-tzgE1c?autoplay=1&amp;rel=0"
+        data-toggle="modal" class="youtube-video-btn btn btn-primary px-4 watch-video">
+        <i class="far fa-play-circle"></i> Watch Video
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- Highlights -->
+<section class="highlights bg-light" id="highlights">
+  <div class="container">
+    <!-- Featured Project Row-->
+    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+      <div class="col-lg-7">
+        <img class="img-fluid mb-3 mb-lg-0" src="/assets/img/featured.jpg" alt="" />
+      </div>
+      <div class="col-xl-4 col-lg-5">
+        <div class="featured-text text-center text-lg-left">
+          <h4>Buddha Himal</h4>
+          <p class="text-black-50 mb-0">
+            A beautiful icy mountain which is part of the Himalaya range is clearly seen from Barpak. It is around 6692m above
+            sea level.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="text-center highlight-caption">Highlights</h4>
+
+    <!-- Project One Row-->
+    <div class="row justify-content-center no-gutters">
+      <div class="col-lg-6">
+        <img class="img-fluid" src="/assets/img/people.jpg" alt="" />
+        <div class="overlay">
+          <div class="caption">
+            Friendly People
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid" src="/assets/img/houses.png" alt="" />
+        <div class="overlay">
+          <div class="caption">
+            Structured Houses
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project Two Row-->
+    <div class="row justify-content-center no-gutters">
+      <div class="col-lg-6">
+        <img class="img-fluid" src="/assets/img/waterfall.png" alt="" />
+        <div class="overlay">
+          <div class="caption">
+            Natural Beauties
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid" src="/assets/img/surrounding.png" alt="" />
+        <div class="overlay">
+          <div class="caption">
+            Beautiful Surrounding
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="about text-center" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-white mb-4">About Barpak</h2>
+        <p class="text-white-50 w-80 m-auto">
+          Barpak is a village located in Sulikot Gaunpalika in the northern part of the Gorkha district of
+          Nepal and around 1900m above from sea level. It is inhabited by Gurungs, Ghales, Sunars, Pariyars
+          and others. The main source of economy are agriculture, tourism and foreign employment.
+          It is one of the popular stopover village in route to Manasulu trekking.
+          <br><br>
+          Barpak was the epicenter of the 2015 Earthquake with a magnitude of 7.8 which took nearly nine
+          thousands lives all over Nepal. We are grateful to all the people and organization who helped us
+          during the earthquake crisis. At present, life has returned to normal and living as usual.
+        </p>
+      </div>
+    </div>
+    <img class="img-fluid" src="/assets/img/about-bg.png" alt="" />
+  </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery" class="py-8">
+  <h2 class="text-center mb-4">Gallery</h2>
+
+  <div class="container p-0">
+    <div class="row no-gutters">
+      {% for i in (1..12) %}
+        <div class="col-lg-3 col-md-4 col-6">
+          <a class="gallery" href="/assets/img/gallery/{{ i }}.jpg">
+            <img class="img-fluid" src="/assets/img/gallery/{{ i }}.jpg" alt="" />
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- School -->
+<section class="school text-center" id="school">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <h2 class="text-dark mb-0">Himalaya Secondary School</h2>
+        <p class="text-dark-75">
+          Source of knowledge to our children
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <img class="img-fluid" src="/assets/img/school.jpg" alt="" />
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact py-8" id="contact">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="mt-0">Let's Get In Touch!</h2>
+        <hr class="divider my-4" />
+        <p class="text-muted mb-5">
+          Do you have any suggestion or comment or want to help in building this website?
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <a class="d-block no-decoration" href="https://m.me/cooolbrg" target="_blank">
+          <i class="fab fa-facebook-messenger fa-lg"></i> Message Me
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Credits -->
+<section class="credits bg-secondary py-6" id="credits">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="mt-0 text-white">Credits</h2>
+        <p class="text-white mb-3">
+          Thanks to all the people who has created such wonderful content.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <ul class="credit-list">
+          <li class="credit-item">
+            <strong>Video: </strong>
+            <a href="https://www.youtube.com/channel/UC7ECx0FOLlxJFc3DaRtk6BA" target="_blank">
+              Dil Bahadur Ghale <i class="fab fa-youtube fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+

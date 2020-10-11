@@ -3,19 +3,18 @@
 
   {%- include head.html -%}
 
-  <body class="d-flex flex-column">
-    <div id="page-content">
-      <header>
-        {% include navbar.html %}
-      </header>
+  <body id="pagetop" data-spy="scroll" data-target=".navbar" data-offset="50">
+    {{ content }}
 
-      <main>
-        {{ content }}
-      </main>
-    </div>
+    {% include footer.html %}
 
-    {%- include footer.html -%}
+    <a href="#pagetop" class="scroll" id="toTop">
+      <img src="/assets/img/top.png" id="toTopHover" style="opacity: 1;" />
+    </a>
+
     {% include javascripts.html %}
+
+    {% include youtube-video-modal.html %}
   </body>
 
 </html>
