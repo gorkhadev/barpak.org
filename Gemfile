@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.1.1"
+gem "nokogiri", ">= 1.11.0"
+gem "kramdown", ">= 2.3.1"
+gem "jekyll", "4.3.3"
 
 # group :jekyll_plugins do
 #   gem "jekyll-feed", "~> 0.6"
